@@ -117,5 +117,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-
-
+/venv/
+/src/__pycache__/
+.replit
+poetry.lock
+pyproject.toml
+replit.nix
