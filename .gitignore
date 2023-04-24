@@ -123,3 +123,5 @@ dist
 poetry.lock
 pyproject.toml
 replit.nix
+
+/.idea/
