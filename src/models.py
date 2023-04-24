@@ -11,7 +11,7 @@ class ModelInterface:
 
 
 class OpenAIModel(ModelInterface):
-    def __init__(self, api_key: str, model_engine: str, image_size: str = '512x512'):
+    def __init__(self, api_key: str, model_engine: str, image_size: str = '1024x1024'):
         openai.api_key = api_key
         self.model_engine = model_engine
         self.image_size = image_size
